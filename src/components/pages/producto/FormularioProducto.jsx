@@ -74,8 +74,13 @@ const FormularioProducto = ({
         });
         //aqui quiero redireccionar
         navegacion("/administrador");
+      } else {
+        Swal.fire({
+          title: "Ocurrio un error",
+          text: `El producto ${producto.nombreProducto} no pudo ser editado. Intente nuevamente en unos minutos.`,
+          icon: "Error",
+        });
       }
-      // aqui mostrar un mensaje de error
     }
   };
 
