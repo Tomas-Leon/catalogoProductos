@@ -1,8 +1,8 @@
 # ☕ Cafetería CRUD
 
-¡Bienvenido al proyecto CRUD de productos para una cafetería!
+¡Bienvenido a mi versión del proyecto CRUD de productos para una cafetería!
 
-Este es un proyecto de ejemplo que demuestra la creación, lectura, actualización y eliminación (CRUD) de productos utilizando React.
+Este proyecto está basado en el repositorio original de **Arias Emilse** ([link al repo original](https://github.com/rollingcodeschool/catalogoProductos-c12)) y ha sido **modificado y adaptado por Tomas Leon** para fines de práctica y aprendizaje.
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -15,7 +15,7 @@ Este es un proyecto de ejemplo que demuestra la creación, lectura, actualizaci�
 ## 📁 Estructura del Proyecto
 
 La estructura principal del proyecto es la siguiente:
-```
+```text
 src/
 ├── assets/
 ├── components/
@@ -36,42 +36,45 @@ src/
 ├── index.css
 └── main.jsx
 ```
-
 ## ⚙️ Variables de Entorno
 
 Este proyecto utiliza variables de entorno para almacenar información sensible o de configuración. Para que la aplicación funcione correctamente, debes crear un archivo `.env` en la raíz del proyecto (al mismo nivel que `package.json` y `vite.config.js`) con el siguiente contenido:
 
-```dotenv
-VITE_API_EMAIL=mail@mail.com
-VITE_API_PASSWORD=123456Aa$
-```
+VITE_API_EMAIL=`mail@mail.com`
+
+VITE_API_PASSWORD=`123456Aa$`
+
 
 ## 🛠️ Instalación y Ejecución
-1. Clona este repositorio
 
-    ```git clone https://github.com/rollingcodeschool/catalogoProductos-c12```
-1. Navega a la carpeta del proyecto:
-
-
-    ```cd catalogoProductos-c12```
-1. Crea el archivo .env con las variables de entorno: 
-
-```dotenv
-VITE_API_EMAIL=mail@mail.com
-VITE_API_PASSWORD=123456Aa$
+1. Clona este repositorio:
+```
+git clone https://github.com/Tomas-Leon/catalogoProductos.git
 ```
 
-4. Instala las dependencias:
 
-    ```npm install```
-1. Inicia la aplicación:
- 
-    ```npm run dev```
+2. Navega a la carpeta del proyecto:
+```
+cd catalogoProductos
+```
+
+3. Crea el archivo `.env` con las variables de entorno mencionadas arriba.
+
+4. Instala las dependencias:
+```
+npm install
+```
+
+5. Inicia la aplicación:
+```
+npm run dev
+```
 
 ## 👩‍💻 Autoría
 
-Este proyecto fue desarrollado por Arias Emilse. ¡Gracias por tu interés!
+Proyecto original por **Arias Emilse**.  
+Versión modificada y adaptada por **Tomas Leon**.
 
----- 
+---
 
 ¡Disfruta desarrollando!💻
